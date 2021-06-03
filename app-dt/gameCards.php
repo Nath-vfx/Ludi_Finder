@@ -7,7 +7,7 @@ require_once 'classes/Game_Card.php';
 require_once 'cnx.php';
 
 // ordre SQL
-$query = "SELECT * FROM `game_card`";
+$query = "SELECT * FROM game_card";
 
 
 $request = $pdo->prepare($query);
@@ -40,6 +40,6 @@ if($request->execute()) {
     echo "Request error";
 }
 
-  echo "<pre>";
+/*  echo "<pre>";
     print_r($listGameCard);
-    echo "</pre>";
+    echo "</pre>";*/

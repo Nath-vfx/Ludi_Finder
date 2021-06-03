@@ -140,12 +140,20 @@ section {
     margin-left: 25px;
     margin-right: 25px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .img-container {
     max-width: 321px;
     min-width: max-content;
     height: 300px;
+    display: flex;
+    margin: auto auto 0 auto;
+}
+
+.img-container img{
+    margin: auto;
 }
 
 .caroussel-card h4 {
@@ -154,6 +162,7 @@ section {
     font-family: Poppins, Arial, sans-serif;
     font-weight: 300;
     margin-top: 90px;
+    margin-bottom: 1rem;
 }
 
 .slide-caroussel {

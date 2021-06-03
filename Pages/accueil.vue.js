@@ -18,9 +18,9 @@ var Accueil = Vue.component('Accueil', {
         <section id="decouvrir">
             <div id="caroussel-container">
                 <h2>Découvrir</h2>
-                <button class="slide-caroussel gauche">
+                <!--<button class="slide-caroussel gauche">
                     <img src="elements/img/SVG/Bouton%20Slide%201-1.svg" alt="Bouton">
-                </button>
+                </button>-->
                 <ul class="caroussel">
                     <li class="caroussel-card">
                         <div>
@@ -55,9 +55,9 @@ var Accueil = Vue.component('Accueil', {
                         </div>
                     </li>
                 </ul>
-                <button class="slide-caroussel droite">
+                <!--<button class="slide-caroussel droite">
                     <img src="elements/img/SVG/Bouton%20Slide%201-2.svg" alt="Bouton">
-                </button>
+                </button>-->
             </div>
         
         </section>

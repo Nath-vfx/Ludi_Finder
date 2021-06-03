@@ -4,10 +4,10 @@ var gameCards = Vue.component('gameCards', {
     <div class="template">
     <h1 class="pageTitle">Liste des jeux</h1>
         <div class="superGrid">
-            <div class="gameCards">
-            <a href="" >Blabla</a>
+            <div class="gameCards" v-for="gameCard in listGameCard" v-bind:item="gameCard" :key="gameCard.game_name">
+            <a href="" >{{gameCard.game_name}}</a>
                 <div>
-                    <img src="elements/logos/instagram-brands.svg" alt="">
+                    <img v-bind:src="gameCard.game_img" alt="">
                 </div>
                 
             </div>
@@ -19,9 +19,20 @@ var gameCards = Vue.component('gameCards', {
     
     `,
     data() {
-        return {}
+        return {
+            listGameCard: []
+        }
     },
     mounted() {
+        axios.get(backend.gameCards).then((response) => {
+            this.listGameCard = response.data;
+            console.log("Game Cards", this.listGameCard)
+        })
+            .catch(function (error){
+                console.log(error)
+            });
     },
-    methods: {}
+    methods: {
+
+    }
 })
