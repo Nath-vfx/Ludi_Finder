@@ -25,7 +25,7 @@ var Accueil = Vue.component('Accueil', {
                     <li class="caroussel-card">
                         <div>
                             <div class="img-container">
-                                <img src="#" alt="#">
+                                <img src="elements/img/decoration/Image%20de%20jeu%20Dixit.png" alt="Dixit">
                             </div>
                             <h4 class="gameName">Dixit</h4>
                         </div>
@@ -33,25 +33,25 @@ var Accueil = Vue.component('Accueil', {
                     <li class="caroussel-card">
                         <div>
                             <div class="img-container">
-                                <img src="#" alt="#">
+                                <img src="elements/img/decoration/Image%20de%20jeu%20AVosMarques.png" alt="À vos marques">
                             </div>
-                            <h4 class="gameName">Dixit</h4>
+                            <h4 class="gameName">À vos marques</h4>
                         </div>
                     </li>
                     <li class="caroussel-card">
                         <div>
                             <div class="img-container">
-                                <img src="#" alt="#">
+                                <img src="elements/img/decoration/Image%203.png" alt="Pie Face!">
                             </div>
-                            <h4 class="gameName">Dixit</h4>
+                            <h4 class="gameName">Pie face</h4>
                         </div>
                     </li>
                     <li class="caroussel-card">
                         <div>
                             <div class="img-container">
-                                <img src="#" alt="#">
+                                <img src="elements/img/decoration/Image%20de%20jeu%20Pandaï.png" alt="Pandaï">
                             </div>
-                            <h4 class="gameName">Dixit</h4>
+                            <h4 class="gameName">Pandaï</h4>
                         </div>
                     </li>
                 </ul>

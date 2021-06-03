@@ -6,7 +6,7 @@ var createGameCard = Vue.component('CreateGameCard', {
         
         <div class="form" id="formGame">
         
-            <form @submit.prevent="submit()">
+            <form id="form" @submit.prevent="submit()">
                 <div>
                     <label for="name">Quel est le nom du jeu que vous voulez présentez ?</label>
                     <br>
@@ -84,9 +84,8 @@ var createGameCard = Vue.component('CreateGameCard', {
                 <div>
                     <label for="rules">Connaissez vous les règles du jeux ? Pouvez vous nous les décrires ?</label>
                     <br>
-                    <textarea 
-                        name="rules" 
-                        v-model="gameCard.game_rules
+                    <textarea name="rules" 
+                        v-model="gameCard.game_rules"
                         class="textField"></textarea>
                 </div>
                 <div>
@@ -129,8 +128,6 @@ var createGameCard = Vue.component('CreateGameCard', {
                 game_time: 0,
                 game_goal: null,
                 game_infos: null,
-                game_img: null,
-                game_img_desc: null,
                 purchase_link: null
             }
         }
@@ -150,14 +147,12 @@ var createGameCard = Vue.component('CreateGameCard', {
             params.append("game_time", this.gameCard.game_time);
             params.append("game_goal", this.gameCard.game_goal);
             params.append("game_infos", this.gameCard.game_infos);
-            params.append("game_img", this.gameCard.game_img);
-            params.append("game_img_desc", this.gameCard.game_img_desc);
             params.append("purchase_link", this.gameCard.purchase_link);
 
-            axios.get(backend.create_gameCard, params)
+            axios.post(backend.create_gameCard, params)
                 .then(response =>{
-                    console.log("Liste des jeux", this.gameCard)
-                    this.$router.push('/')
+                    console.log("Liste des jeux", response);
+                    this.$router.push('/');
                 })
 
                 .catch(error =>{
