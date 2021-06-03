@@ -1,0 +1,41 @@
+/*rgpd*/
+#rgpd {
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 1200px !important;
+    margin: 0 auto 10rem auto !important;
+    font-family: Oxygen, sans-serif !important;
+    font-size: 2em !important;
+}
+
+#rgpd h1 {
+    font-family: Poppins, sans-serif !important;
+    font-size: 5em !important;
+    font-weight: 400 !important;
+    margin: 3rem auto !important;
+    width: max-content !important;
+    padding: 3rem 5rem !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16) !important;
+    border-radius: 10px !important;
+}
+
+#rgpd h2 {
+    font-size: 2em !important;
+    text-align: center !important;
+    margin: 3rem 0 !important;
+    color: #6717CD !important;
+}
+
+#rgpd h3 {
+    text-align: center !important;
+    margin: 2rem 0 !important;
+    font-size: 1em !important;
+}
+
+#rgpd a {
+    color: #009FE3 !important;
+}
+
+#rgpd a:hover {
+    color: #F20893 !important;
+}

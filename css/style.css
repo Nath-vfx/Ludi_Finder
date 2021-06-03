@@ -1,0 +1,451 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+}
+h1 {
+    font-family: ColorTube, "Arial Black", sans-serif;
+    font-size: 40px;
+}
+
+.pageTitle {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 3rem auto 10rem auto;
+    width: max-content;
+    padding: 3rem 5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+
+}
+
+h2 {
+    font-family: Poppins, Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 5em;
+}
+
+h3 {
+    font-family: Poppins, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 3.5em;
+}
+
+/*Header*/
+button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+}
+
+.buttonHead {
+    padding: 0 3rem;
+    height: 48px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    box-shadow: lightgrey 0 3px 6px;
+}
+
+.buttonLink {
+    font-size: 2.2em;
+    line-height: 22px;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+#ajout {
+    background-color: #EE299E;
+    margin-right: 40px;
+}
+
+.lastButton {
+    height: 40px;
+    margin: auto 10px;
+    padding: 0 20px;
+}
+
+#connexion {
+    background-color: white;
+}
+
+#inscription {
+    background-color: #009FE3;
+}
+
+header {
+    display: flex;
+    background: #F9F9F9;
+    box-shadow: lightgrey 0 3px 6px;
+}
+
+.logHead {
+    width: 310px;
+    height: auto;
+}
+
+.hubLink {
+    margin: auto;
+}
+
+.content-header {
+    display: flex;
+    margin-left: auto;
+}
+
+a {
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+}
+
+.simpleLink {
+    color: #707070;
+    font-size: 3em;
+}
+
+.content-header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.content-header li {
+    padding: 20px 38px 20px 38px;
+}
+
+/*sections*/
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+section:nth-child(2n) {
+    background-color: white;
+}
+
+section:nth-child(7) {
+    background-color: white;
+}
+
+/*footer*/
+footer {
+    height: 80vh;
+    width: 100vw;
+    background: #F9F9F9;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+.footerContent, .footerTitle {
+    display: flex;
+}
+
+.footerTitle h4{
+    margin: auto;
+}
+
+.footerContent > div {
+    margin: 4rem auto 0 auto;
+    padding: 0 50px;
+}
+
+div.colonneUn {
+    display: flex;
+    border-right: 2px solid black;
+    margin-right: 0;
+}
+
+div.colonneDeux {
+    border-right: 2px solid black;
+    margin-right: 0;
+    margin-left: 0;
+}
+div.colonneTrois {
+    margin-left: 0;
+}
+.colonneDeux ul {
+
+}
+
+.int {
+    margin: 0 100px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a, footer .router-link {
+    color: #707070;
+    font-size: 2.4em;
+    font-family: 'Oxygen', sans-serif;
+}
+
+footer li {
+    padding-top: 20px;
+}
+
+footer h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4em;
+}
+
+/*Fin*/
+
+div.fin {
+    display: flex;
+    flex-flow: wrap-reverse;
+    height: 200px;
+}
+div.fin > p, div.fin > h3, div.fin > div.réseaux {
+    margin: auto auto 10px auto;
+}
+.fin h3 {
+    font-family: 'ColorTube', sans-serif;
+    font-size: 2em;
+}
+div.réseaux ul {
+    display: flex;
+    align-items: center;
+}
+div.réseaux li {
+    margin: 0 25px;
+}
+div.réseaux img {
+    width: 60px;
+}
+
+/*spécial*/
+
+.hidden {
+    visibility: hidden;
+}
+img {
+    font-family: 'Oxygen', sans-serif;
+}
+
+#pageInColumn {
+    display: flex;
+    justify-content: center;
+}
+
+.template {
+    margin-bottom: 20rem;
+    margin-top: 10rem;
+    min-width: max-content;
+    min-height: max-content;
+}
+
+/*Formulaire de création d'une gameCard*/
+
+#formGame {
+    background-color: #FFF8FD;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    position: relative;
+}
+
+#formGame:before {
+    content: url("../elements/img/decoration/Flat-design_publications.svg");
+    position: absolute;
+    right: 2rem;
+    top: -30rem;
+}
+#formGame:after {
+    content: url("../elements/img/decoration/Flat-design_femme avec des posts.svg");
+    position: absolute;
+    right: -15rem;
+    top: 70rem;
+}
+
+#formGame form {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding: 2rem;
+}
+
+#formGame label {
+    font-size: 4em;
+    padding-left: 3rem;
+    position: relative;
+}
+
+#formGame label:before {
+    content: url("../elements/img/decoration/Rectangle 329.svg");
+    position: absolute;
+    left: -5px;
+}
+
+#formGame input, #formGame select {
+    line-height: 45px;
+    font-size: 2.6em;
+    padding-left: 1rem;
+    outline: none;
+    border: 2px white solid;
+    border-radius: 10px;
+    transition: border 300ms ease-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    font-family: Oxygen, sans-serif;
+    margin: 3rem 0;
+}
+
+#formGame .textField {
+    width: 50%;
+}
+
+#formGame textarea {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    outline: none;
+    font-size: 2.6em;
+    padding-left: 1rem;
+    border: 2px white solid;
+    border-radius: 10px;
+    transition: border 300ms ease-out;
+    resize: none;
+    height: 500px;
+    font-family: Oxygen, sans-serif;
+}
+
+#formGame .button {
+    margin: 3rem auto;
+}
+
+#formGame button {
+    text-align: left;
+    padding: 1rem 1.5rem;
+    background-color: #EE299E;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    min-width: 250px;
+    position: relative;
+}
+#formGame button:after {
+    content: url("../elements/img/decoration/icon-send.svg");
+    position: absolute;
+    right: 21px;
+    bottom: -2px;
+}
+
+#formGameCard {
+    background: url("../elements/img/backgounds/background-gamecard.png") no-repeat;
+    background-position-x: -12rem;
+    background-size: 100vw;
+    height: 100%;
+    padding-bottom: 35rem;
+
+}
+
+/*Formulaire de création d'une gameCard = fin*/
+
+/*404*/
+
+#pageIntrouvable {
+    display: flex;
+}
+
+#pageIntrouvable div:first-child {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+#pageIntrouvable div:last-child {
+    margin-right: auto;
+
+}
+
+#pageIntrouvable p {
+    font-size: 3.6em;
+}
+
+#pageIntrouvable h1 {
+    font-size: 6em;
+}
+
+#pageIntrouvable button {
+    text-align: left;
+    padding: 2rem 3rem 2rem 10rem;
+    background-color: #EE299E;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    min-width: 250px;
+    position: relative;
+}
+#pageIntrouvable button:before {
+    content: url(../elements/img/SVG/rect-arrow.svg);
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-45%);
+}
+
+#pageIntrouvable a {
+    margin: 7rem auto 0 auto;
+}
+
+/*About*/
+
+#about {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10rem;
+}
+#about p {
+    font-size: 2.4em;
+}
+
+#about div {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 921px;
+    margin-left: 6rem;
+
+}
+#about p {
+    padding: 3rem 0;
+}
+#about img {
+        margin-left: auto;
+
+}
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1636px;
+    font-size: 2.4em;
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="43" viewBox="0 0 49 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #9b9b9b;
+        stroke: #8db2e2;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_198" data-name="Groupe 198" transform="translate(-244 -8)">
+    <rect id="Rectangle_410" data-name="Rectangle 410" class="cls-1" width="49" height="43" rx="6" transform="translate(244 8)"/>
+    <path id="iconmonstr-angel-right-thin" class="cls-2" d="M4,.64l12.188,9.535L4,19.688l.525.662L17.567,10.175,4.516,0Z" transform="translate(257.67 19.375)"/>
+  </g>
+</svg>

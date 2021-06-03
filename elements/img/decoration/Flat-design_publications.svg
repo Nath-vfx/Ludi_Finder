@@ -1,0 +1,47 @@
+<svg id="Flat-design_publications" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="294.76" height="252.29" viewBox="0 0 294.76 252.29">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b3b3b3" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="#b3b3b3" stop-opacity="0.102"/>
+      <stop offset="1" stop-color="#b3b3b3" stop-opacity="0.051"/>
+    </linearGradient>
+  </defs>
+  <path id="Tracé_1149" data-name="Tracé 1149" d="M807.874,269.876S816.749,236.913,799,203" transform="translate(-588.547 -155.141)" fill="none" stroke="#e0e0e0" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" stroke-dasharray="0 23"/>
+  <line id="Ligne_44" data-name="Ligne 44" transform="translate(95.271 111.09)" fill="none" stroke="#e0e0e0" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <path id="Tracé_1150" data-name="Tracé 1150" d="M362.732,270.7c3.131-12.792,4.066-39.46-37.292-50.781" transform="translate(-265.081 -166.698)" fill="none" stroke="#e0e0e0" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" stroke-dasharray="0 23.61"/>
+  <line id="Ligne_45" data-name="Ligne 45" transform="translate(56.578 52.509)" fill="none" stroke="#e0e0e0" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <rect id="Rectangle_345" data-name="Rectangle 345" width="257.384" height="139.435" transform="translate(22.29 112.854)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_346" data-name="Rectangle 346" width="252.924" height="133.91" transform="translate(24.722 114.735)" fill="#fff"/>
+  <circle id="Ellipse_355" data-name="Ellipse 355" cx="12.343" cy="12.343" r="12.343" transform="translate(61.607 123.826)" fill="url(#linear-gradient-2)"/>
+  <ellipse id="Ellipse_356" data-name="Ellipse 356" cx="10.972" cy="11.201" rx="10.972" ry="11.201" transform="translate(62.978 124.741)" fill="#ee299e"/>
+  <rect id="Rectangle_347" data-name="Rectangle 347" width="62.632" height="5.943" transform="translate(99.094 132.055)" fill="#bdbdbd"/>
+  <rect id="Rectangle_348" data-name="Rectangle 348" width="155.938" height="6.339" transform="translate(73.69 172.895)" fill="#e0e0e0"/>
+  <rect id="Rectangle_349" data-name="Rectangle 349" width="155.938" height="6.339" transform="translate(73.69 158.949)" fill="#e0e0e0"/>
+  <rect id="Rectangle_350" data-name="Rectangle 350" width="155.938" height="6.339" transform="translate(73.69 186.84)" fill="#e0e0e0"/>
+  <rect id="Rectangle_351" data-name="Rectangle 351" width="155.938" height="6.339" transform="translate(73.69 200.786)" fill="#e0e0e0"/>
+  <rect id="Rectangle_352" data-name="Rectangle 352" width="155.938" height="6.339" transform="translate(73.69 214.731)" fill="#e0e0e0"/>
+  <rect id="Rectangle_353" data-name="Rectangle 353" width="155.938" height="6.339" transform="translate(73.69 228.677)" fill="#e0e0e0"/>
+  <line id="Ligne_46" data-name="Ligne 46" transform="translate(48.597 112.675)" fill="none" stroke="#bdbdbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <path id="Tracé_1151" data-name="Tracé 1151" d="M276.4,333.241c.241-6.852-.6-17.1-6.586-23.9" transform="translate(-227.082 -227.777)" fill="none" stroke="#bdbdbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" stroke-dasharray="0 22.87"/>
+  <line id="Ligne_47" data-name="Ligne 47" transform="translate(40.094 79.078)" fill="none" stroke="#bdbdbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <line id="Ligne_48" data-name="Ligne 48" transform="translate(191.857 115.527)" fill="none" stroke="#e0e0e0" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <path id="Tracé_1152" data-name="Tracé 1152" d="M728.4,342.241c.241-6.852-.6-17.1-6.586-23.9" transform="translate(-535.822 -233.924)" fill="none" stroke="#e0e0e0" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" stroke-dasharray="0 22.87"/>
+  <line id="Ligne_49" data-name="Ligne 49" transform="translate(183.354 81.931)" fill="none" stroke="#e0e0e0" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <line id="Ligne_50" data-name="Ligne 50" transform="translate(252.819 112.675)" fill="none" stroke="#bdbdbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <path id="Tracé_1153" data-name="Tracé 1153" d="M930.332,333.241c-.241-6.852.6-17.1,6.586-23.9" transform="translate(-678.23 -227.777)" fill="none" stroke="#bdbdbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" stroke-dasharray="0 22.87"/>
+  <line id="Ligne_51" data-name="Ligne 51" transform="translate(261.323 79.078)" fill="none" stroke="#bdbdbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <rect id="Rectangle_354" data-name="Rectangle 354" width="35.181" height="19.153" transform="translate(0 36.379)" fill="#ee299e" opacity="0.7"/>
+  <rect id="Rectangle_355" data-name="Rectangle 355" width="35.181" height="19.153" transform="translate(192.704 23.384)" fill="#ee299e" opacity="0.7"/>
+  <rect id="Rectangle_356" data-name="Rectangle 356" width="35.181" height="19.153" transform="translate(162.594 57.615)" fill="#ee299e" opacity="0.7"/>
+  <rect id="Rectangle_357" data-name="Rectangle 357" width="57.298" height="31.191" transform="translate(26.307 40.436)" fill="#ee299e"/>
+  <rect id="Rectangle_358" data-name="Rectangle 358" width="57.298" height="31.191" transform="translate(237.463 42.021)" fill="#ee299e"/>
+  <rect id="Rectangle_359" data-name="Rectangle 359" width="57.298" height="31.191" transform="translate(107.67)" fill="#ee299e"/>
+  <line id="Ligne_52" data-name="Ligne 52" transform="translate(131.216 112.358)" fill="none" stroke="#bdbdbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <path id="Tracé_1154" data-name="Tracé 1154" d="M544.048,250.96a37.4,37.4,0,0,0-2.954-28.753c-7.607-13.79-.767-27.226,3.122-33.077" transform="translate(-410.037 -145.667)" fill="none" stroke="#bdbdbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" stroke-dasharray="0 24.01"/>
+  <line id="Ligne_53" data-name="Ligne 53" transform="translate(136.446 40.411)" fill="none" stroke="#bdbdbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+</svg>

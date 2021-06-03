@@ -1,0 +1,201 @@
+#subscribe {
+    font-family: Oxygen, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: max-content;
+    background-color: white;
+}
+
+
+#subscribe form {
+    background: #F9F9F9;
+    min-width: max-content;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    display: flex;
+
+}
+
+.card {
+    background: #F9F9F9;
+    width: 30vw;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+}
+
+.card p {
+    font-size: 2.2em;
+}
+
+#subscribe form div {
+    margin: 2rem 3rem;
+}
+
+#subscribe form label {
+    font-size: 2.5em;
+}
+
+#subscribe form label:not(:last-child) {
+    line-height: 3em;
+    position: relative;
+    padding-left: 20px;
+
+}
+
+#subscribe form label:not(:last-child):before {
+    content: url("../elements/img/decoration/blue-rectangle.svg");
+    position: absolute;
+    left: -10px;
+}
+
+#subscribe form input {
+    line-height: 45px;
+    font-size: 2.6em;
+    padding-left: 1rem;
+    outline: none;
+    border: 2px white solid;
+    border-radius: 10px;
+    transition: border 300ms ease-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    font-family: Oxygen, sans-serif;
+}
+
+#subscribe form textarea {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    outline: none;
+    font-size: 2.6em;
+    padding-left: 1rem;
+    border: 2px white solid;
+    border-radius: 10px;
+    transition: border 300ms ease-out;
+    resize: none;
+    height: 500px;
+    font-family: Oxygen, sans-serif;
+}
+
+
+.textField {
+    width: 100%;
+}
+
+#subscribe form input:focus textarea:focus {
+    border: #F20893 2px solid;
+}
+
+/*Colonnes*/
+
+.form {
+    min-width: max-content;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h3, .center {
+    text-align: center;
+}
+
+
+/*Check box*/
+
+.valid > * {
+    font-size: 1.2em;
+    line-height: 12px;
+}
+
+.valid label {
+    text-decoration: underline;
+}
+
+.valid label .router-link {
+    position: relative;
+    font-size: 0.8em;
+    transition: all 300ms ease;
+}
+.valid label .router-link:hover {
+    color: #009FE3;
+}
+
+.valid input {
+    width: max-content;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.valid [type="checkbox"] {
+    width: 1.8rem;
+    height: 1.8rem;
+
+}
+
+#subscribe .button {
+    align-self: center;
+    margin: 1rem;
+}
+
+#subscribe .button button {
+    padding: 0.8rem 1.5rem;
+    background-color: #EE299E;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    min-width: 120px;
+}
+
+.teamMate {
+    margin: 2rem auto;
+    display: flex;
+}
+
+.teamMate img {
+    width: 25%;
+    padding-bottom: 3rem;
+}
+
+.teamMate p {
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+
+#pageInColumn > .team, #pageInColumn > #subscribe {
+    margin: 3rem 10rem 15rem 3rem;
+}
+
+#pageInColumn:after {
+    content: url("../elements/img/decoration/Flat-design_Homme avec enveloppe.svg");
+    position: absolute;
+    bottom: -13rem;
+    left: 110rem;
+}
+
+#pageInColumn {
+    position: relative;
+}
+
+.team:before {
+    content: url("../elements/img/decoration/Flat-design_ballon2.svg");
+    position: absolute;
+    width: 3rem;
+    height: auto;
+    top: -11rem;
+    left: 38rem;
+}
+
+.team:after {
+    content: url("../elements/img/decoration/Flat-design_ballon1.svg");
+    position: absolute;
+    width: 3rem;
+    height: auto;
+    top: -22rem;
+    left: 40rem;
+}
+
+.team {
+    position: relative;
+    z-index: 10;
+}

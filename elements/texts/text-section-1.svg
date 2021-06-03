@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="545.035" height="586.241" viewBox="0 0 545.035 586.241">
+    <g transform="translate(-987 -166.024)">
+        <g transform="translate(3059.368 3030.789)">
+            <g transform="translate(-2037.004 -2517.973)">
+                <path d="M-1970.667-2468h330.578l43.529,51.441L-1553.03-2468H-1481v-168"
+                      transform="translate(1980.671 2646.004)" fill="none" stroke="rgba(0,159,227,0.71)"
+                      stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/>
+                <line y1="0.024" x2="415.996" transform="translate(9.504 178.448)" fill="none"
+                      stroke="rgba(108,99,255,0.7)" stroke-linecap="round" stroke-width="20"/>
+                <path d="M450.09,575.124a10,10,0,1,1,10,10A10,10,0,0,1,450.09,575.124Z"
+                      transform="translate(-450.09 -396.978)" fill="#1b1464"/>
+                <circle cx="10.004" cy="10.004" r="10.004" transform="translate(374.859 219.441)" fill="#f20893"/>
+                <path d="M1171.1,487.864a10,10,0,1,1,2.928,7.076A10,10,0,0,1,1171.1,487.864Z"
+                      transform="translate(-681.438 -477.86)" fill="#6c63ff"/>
+                <path d="M1171.1,487.864a10,10,0,1,1,2.928,7.076A10,10,0,0,1,1171.1,487.864Z"
+                      transform="translate(-841.368 -309.719)" fill="#1b1464"/>
+            </g>
+        </g>
+        <g transform="translate(121 -40.976)">
+            <text transform="translate(927 267)" font-size="32" font-family="Oxygen-Light, Oxygen" font-weight="300">
+                <tspan x="0" y="33">Cherchez, trouvez, jouez !</tspan>
+            </text>
+            <text transform="translate(873 351)" font-size="32" font-family="Oxygen-Light, Oxygen" font-weight="300">
+                <tspan x="0" y="33">LudiFinder répertorie chaque jours</tspan>
+                <tspan x="0" y="74">toujours plus de jeux pour parfaire</tspan>
+                <tspan x="0" y="115">vos soirées en famille, entre amis,</tspan>
+                <tspan x="0" y="156">vos parties de jeux de rôles</tspan>
+                <tspan x="0" y="197">endiablées ou encore trouver une</tspan>
+                <tspan x="0" y="238">idée de jeux pour vos enfants...</tspan>
+                <tspan x="0" y="320">Trouvez le jeu qu&apos;il vous faut !</tspan>
+            </text>
+            <text transform="translate(866 207)" font-size="40" font-family="Poppins-Bold, Poppins" font-weight="700">
+                <tspan x="20" y="42">Découvrez Ludi&apos;Finder !</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

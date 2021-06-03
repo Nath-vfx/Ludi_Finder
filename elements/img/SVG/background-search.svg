@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="887.222" height="947.956" viewBox="0 0 887.222 947.956">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+      }
+
+      .cls-2 {
+        fill: #f20893;
+      }
+
+      .cls-3 {
+        fill: #009fe3;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_194" data-name="Groupe 194" transform="translate(128.272 -260.134)">
+    <path id="Tracé_154" data-name="Tracé 154" class="cls-1" d="M1030.61,503.033c0,258.819-188.04,468.633-420,468.633s-597.995-302.672-420-468.633C369.745,336.01,465.952,79.136,610.61,34.4,834.144-34.73,1030.61,244.214,1030.61,503.033Z" transform="translate(-271.659 236.424)"/>
+    <circle id="Ellipse_217" data-name="Ellipse 217" class="cls-2" cx="54.315" cy="54.315" r="54.315" transform="translate(315.34 648.576)"/>
+    <path id="Tracé_155" data-name="Tracé 155" d="M444.723,556.681l13.25,22.95,13.25,22.949h-53l13.25-22.949Z" transform="translate(39.047 -246.715)"/>
+    <rect id="Rectangle_105" data-name="Rectangle 105" class="cls-3" width="44" height="44" transform="translate(616.77 854.75)"/>
+  </g>
+</svg>

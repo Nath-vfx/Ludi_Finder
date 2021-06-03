@@ -1,0 +1,129 @@
+section>img {
+    position: absolute;
+}
+
+/*Section 1*/
+
+#femmeDebout {
+    top: 69vh;
+    left: 70vw;
+    z-index: 3;
+}
+
+#nuage {
+    top: 60vh;
+    left: 40vw;
+    z-index: 0;
+}
+
+#textUn {
+    top: 17vh;
+    left: 50vw;
+}
+
+#boutonUn {
+    top: 80vh;
+    left: 15vw;
+}
+
+#logo {
+    left: 6vw;
+    top: 30vh;
+}
+
+/*Section 2*/
+
+#hommeAssis {
+    top: 160vh;
+    left: 10vw;
+}
+
+#barreRecherche {
+    top: 130vh;
+    left: 60vw;
+}
+
+#textDeux {
+    top: 130vh;
+    left: 20vw;
+}
+
+/*Section 3*/
+#femmeDeux {
+    top: 220vh;
+    left: 50vw;
+}
+
+#hommeDebout {
+    top: 235vh;
+}
+
+#textTrois {
+    left: 52vw;
+    top: 217vh;
+}
+
+/*Section 4*/
+#montgolfière {
+    top: 315vh;
+    left: -2vw;
+}
+
+#textQuatre {
+    top: 345vh;
+    left: 40vw;
+    z-index: 6;
+}
+
+#siteBallon {
+    top: 325vh;
+    left: 70vw;
+    z-index: 6;
+}
+
+#nuageDeux {
+    top: 352vh;
+    left: 30vw;
+    z-index: 5;
+}
+
+/*Section 5*/
+
+#friends {
+    top: 445vh;
+    left: 12vw;
+}
+
+#queenKing {
+    top: 445vh;
+    left: 55vw;
+}
+
+#textCinq {
+    top: 420vh;
+    left: 52vw;
+}
+
+/*Section 6*/
+
+#cloudy {
+    top: 576vh;
+    width: 100vw;
+    height: 35%;
+    object-fit: cover;
+    object-position: 0 50px;
+
+}
+
+#play {
+    width: 50%;
+    height: auto;
+    top: 530vh;
+    left: calc(50vw - 475px);
+}
+
+#rejoindreDeux {
+    top: 560vh;
+    left: calc(50vw - (456px / 2));
+}
+

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ludi'Finder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-search.css">
+    <link rel="stylesheet" href="css/subscribe.css">
+    <link rel="stylesheet" href="css/rgpd.css">
+
+
+    <!-- VueJS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- Vue-router pour injection des composants => routage & navigation -->
+    <script src="https://unpkg.com/vue-router"></script>
+    <!--Axios-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <!--Emailling-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+</head>
+    <body>
+    <div id="app">
+            <header>
+                <router-link class="hubLink" to="/">
+                    <img class="logHead" src="elements/logos/Logo%20expérimental.svg" alt="Logo Ludifinder">
+                </router-link>
+                <div class="content-header">
+                    <router-link style="margin: auto" to="/createGameCard">
+                    <button class="buttonHead" id="ajout">
+                        <span class="buttonLink white" >Ajouter un jeu</span>
+                    </button>
+                    </router-link>
+                    <ul>
+                        <li><router-link class="simpleLink" to="/GameCards">Jeux</router-link></li>
+                        <li><router-link class="simpleLink" to="/forum">Forum</router-link></li>
+                        <li><router-link class="simpleLink" to="/contact">Contact</router-link></li>
+                        <li><router-link class="simpleLink" to="/about">À propos</router-link></li>
+                    </ul>
+                    <router-link style="margin: auto" to="/connexion">
+                        <button class="buttonHead lastButton" id="connexion">
+                            <span class="buttonLink black">
+                                Connexion
+                            </span>
+                        </button>
+                    </router-link>
+                    <router-link style="margin: auto" to="/createUser">
+                        <button class="buttonHead lastButton" id="inscription">
+                            <span class="buttonLink white">
+                                Inscription
+                            </span>
+                        </button>
+                    </router-link>
+                </div>
+            </header>
+
+            <!--Point d'insertion des composants-->
+            <router-view></router-view>
+
+            <footer>
+
+                <div class="footerContent">
+                    <div class="colonneUn">
+                        <div class="int">
+                            <ul>
+                                <li><h4>Catégories</h4></li>
+                                <li><router-link class="router-link" :to="{name: 'jeux_de_cartes'}">Jeux de cartes</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'reflexions'}">Réflexion</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'classiques'}">Classiques</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'jeux_plateau'}">Jeux de plateau</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'culture_generale'}">Culture générale</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'jeux_educatifs'}">Jeux éducatifs</router-link></li>
+                            </ul>
+                        </div>
+                        <div class="int">
+                            <ul>
+                                <li><h4 class="hidden">#</h4></li>
+                                <li><router-link class="router-link" :to="{name: 'jeux_des'}">Jeux de dés</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'jeux_adresse'}">Jeux d'adresse</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'jeux_memoire'}">Jeux de mémoire</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'jeux_logique'}">Jeux de logique</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'jeux_bluff'}">Jeux de bluff</router-link></li>
+                                <li><router-link class="router-link" :to="{name: 'jeux_hasard'}">Jeux de hasard</router-link></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="colonneDeux">
+                        <div class="int">
+                            <ul>
+                                <li><h4>Infos</h4></li>
+                                <li><a href="">Inscription/Connexion</a></li>
+                                <li><a href="">Salons de jeux de société</a></li>
+                                <li><a href="">Informations sur le concept</a></li>
+                                <li><a href="">Évènements à venir</a></li>
+                                <li><router-link class="router-link" to="/RGPD">Mentions légales</router-link></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="colonneTrois">
+                        <div class="int">
+                            <ul>
+                                <li><h4>Renseignements</h4></li>
+                                <li><a href="">Forum</a></li>
+                                <li><a href="">Recherche d'un jeu</a></li>
+                                <li><a href="">Contactez-nous</a></li>
+                                <li><a href="">Aide/FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="fin">
+                    <h3>Ludifinder©</h3>
+                    <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
+                    <div class="réseaux">
+                        <ul>
+                            <li><a href=""><img src="elements/logos/twitter-brands.svg" alt="Twitter"></a></li>
+                            <li><a href=""><img src="elements/logos/facebook-brands.svg" alt="Instagram"></a></li>
+                            <li><a href=""><img src="elements/logos/instagram-brands.svg" alt="Facebook"></a></li>
+                            <li><a href=""><img src="elements/logos/linkedin-brands.svg" alt="Linkedin"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </footer>
+
+    </div>
+
+    <script src="param/param.js"></script>
+
+            <!--Les pages-->
+    <script src="Pages/accueil.vue.js"></script>
+
+    <script src="Pages/gameCard/create.vue.js"></script>
+    <script src="Pages/gameCards.vue.js"></script>
+
+    <script src="Pages/forum.vue.js"></script>
+
+    <script src="Pages/contact.vue.js"></script>
+
+    <script src="Pages/about.vue.js"></script>
+
+    <script src="Pages/connexion.vue.js"></script>
+
+    <script src="Pages/user/create.vue.js"></script>
+
+    <script src="Pages/rechercher.vue.js"></script>
+
+    <script src="Pages/404.vue.js"></script>
+    <script src="Pages/RGPD.vue.js"></script>
+
+    <!--Pages de categorie de jeu-->
+    <script src="Pages/categories/classiques.vue.js"></script>
+    <script src="Pages/categories/culture_generale.vue.js"></script>
+    <script src="Pages/categories/jeux_adresse.vue.js"></script>
+    <script src="Pages/categories/jeux_bluff.js"></script>
+    <script src="Pages/categories/jeux_de_cartes.vue.js"></script>
+    <script src="Pages/categories/jeux_des.vue.js"></script>
+    <script src="Pages/categories/jeux_educatifs.vue.js"></script>
+    <script src="Pages/categories/jeux_hasard.vue.js"></script>
+    <script src="Pages/categories/jeux_logique.vue.js"></script>
+    <script src="Pages/categories/jeux_memoire.vue.js"></script>
+    <script src="Pages/categories/jeux_plateau.vue.js"></script>
+    <script src="Pages/categories/reflexions.vue.js"></script>
+
+
+
+
+            <script>
+
+                // Les routages / navigation de l'app
+                var routes = [
+                    //Accueil
+                    {path: '/', name: "Accueil", component: Accueil},
+
+                    //Outils de creation
+                    {path: '/createUser', name: "CreateUser", component: createUser},
+
+                    {path: '/createGameCard', name: "CreateGameCard", component: createGameCard},
+                    {path: '/GameCards', name: "GameCards", component: gameCards},
+
+                    //Pages categorie de jeux
+                    {path: '/classiques', name: "classiques", component: classiques},
+                    {path: '/culture_generale', name: "culture_generale", component: culture_generale},
+                    {path: '/jeux_adresse', name: "jeux_adresse", component: jeux_adresse},
+                    {path: '/jeux_bluff', name: "jeux_bluff", component: jeux_bluff},
+                    {path: '/jeux_de_cartes', name: "jeux_de_cartes", component: jeux_de_cartes},
+                    {path: '/jeux_des', name: "jeux_des", component: jeux_des},
+                    {path: '/jeux_educatifs', name: "jeux_educatifs", component: jeux_educatifs},
+                    {path: '/jeux_hasard', name: "jeux_hasard", component: jeux_hasard},
+                    {path: '/jeux_logique', name: "jeux_logique", component: jeux_logique},
+                    {path: '/jeux_memoire', name: "jeux_memoire", component: jeux_memoire},
+                    {path: '/jeux_plateau', name: "jeux_plateau", component: jeux_plateau},
+                    {path: '/reflexions', name: "reflexions", component: reflexion},
+
+
+                    //Pages immuables
+                    {path: '/forum', name: "Forum", component: Forum},
+                    {path: '/contact', name: "Contact", component: Contact},
+                    {path: '/about', name: "About", component: About},
+                    {path: '/connexion', name: "Connexion", component: Connexion},
+                    {path: '/rechercher', name: "Rechercher", component: Rechercher},
+                    {path: '/RGPD', name: "RGPD", component: RGPD},
+                    {path: '/pageIntrouvable', name: "pageIntrouvable", component: pageIntrouvable},
+                    {path: '*', redirect: '/pageIntrouvable'},
+                ];
+
+                // Initialisation du router
+                var router = new VueRouter(
+                    {routes: routes}
+                );
+
+
+
+                //Vue de l'app (id="app")
+                var app = new Vue({
+                    el: "#app",
+                    router: router
+
+                });
+
+            </script>
+
+
+
+
+    </body>
+</html>
