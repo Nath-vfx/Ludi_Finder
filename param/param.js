@@ -8,7 +8,7 @@ var backend = {
     'gameCategories':           host+'app-dt/gameCategories.php',
 
     'gameCards':                host+'app-dt/gameCards.php',
-    'create_gameCards':         host+'app-dt/createGameCards.php',
+    'create_gameCard':          host+'app-dt/createGameCard.php',
 
     'user':                     host+'app-dt/user.php',
     'create_user':              host+'app-dt/createUser.php',
