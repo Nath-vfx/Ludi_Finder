@@ -1,5 +1,5 @@
 // Serveur du backend
-const host = "http://localhost/Ludi_Finder/"
+const host = "http://ludifinder.nathanvanbignootvincler.fr/"
 
 //Les différentes adresses des programmes
 
